@@ -40,7 +40,7 @@ doing something like the following (tested with Go 1.5.2 on Fedora 23):
 ```
 mkdir journalbeat
 go get github.com/elastic/beats/libbeat
-go get github.com/garyburd/redigo
+go get github.com/garyburd/redigo/redis
 go get github.com/nranchev/go-libGeoIP
 go get github.com/satori/go.uuid
 go get gopkg.in/yaml.v2
